@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <title>Demo chart</title>
+    <script src="/assets/jquery.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <link rel="stylesheet" type="text/css" href="/assets/layout.css" />
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <div id="Heder">
+            <h1>Hau Le DEV Xin chào các bạn</h1>
+            <h3>Cùng chát với nhau, không cần đăng ký</h5>
+        </div>
+        <div id="loginForm">
+            <h3>Tên bạn là gì ?</h3>
+            <input type="text" id="txtUsername" />
+            <input type="button" value="Vào chát ngay" id="btnRegister" />
+        </div>
+        <div id="chatForm">
+            <div id="left">
+                <div id="boxTitle">Users Online</div>
+                <div id="boxContent">
+
+                </div>
+            </div>
+            <div id="right">
+                <div id="sayHi">
+                    Hello <span id="currentUser">Teo</span>
+                    <input type="button" id="btnLogout" value="logout" />
+                </div>
+
+                <div id="listMessage">
+
+                </div>
+                <div id="info"></div>
+                <input type="text" id="txtMessage" />
+                <input type="button" id="btnSendMessage" value="Send" />
+            </div>
+        </div>
+
+        <script src="/assets/common.js"></script>
+
+</body>
+
+</html>
