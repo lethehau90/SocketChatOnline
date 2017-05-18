@@ -18,7 +18,12 @@ body{
 
 #sayHi{text-align: right}
 
-#listMessage{height:  200px; background-color: pink ; margin-bottom: 15px}
+#listMessage{height:  200px; background-color: pink ; margin-bottom: 15px;
+
+border:1px #999999 solid;
+padding: 5px 5px 5px 5px;/* canh chinh noi dung va le the div*/
+overflow:auto; /* thuoc tinh nay lam xuat hien thanh cuon*/
+}
 
 #txtMessage{background-color: transparent ; border:  solid 1px black; width: 85%}
 
